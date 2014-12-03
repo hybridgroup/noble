@@ -4,8 +4,8 @@ env:
   matrix:
     - export NODE_VERSION="0.10"
   global:
-    - secure: cLjN/Y+VL/IVd2D7YKMx/MSPmCHATkPBLopD6nLVKsZkZN0CATUxU/LGt94S4sRWKe6fo1HEgaTVVFB8jDIx9QP3ZVkIoGFLLJm55F6TuCRWjyhm9vksfOf4xXXUhjAGDGGl+dye+o5CHfU96DQ6w8NS8rivBTt9ZGA1kw1n62o=
-    - secure: W1Ia4Nh3Ew4oLiK0Dg+vEtWI8ougq140AY7qpxE6A+3HAGBZlYEFHtzOCoga84qaobDdcC3U78/rHJRZ6zeO7wdbyzKVMD+o+Rq7bjLeT1eN0khmsJxTANnpBazusqDTpWKhtMeOe6cpLU27HaW3gINKfAoCXKP5ZQj9jg+6rhE=
+    - secure: "QMGyXXErMm4ivlSWnYhzdeAb5J2NvqeicFBw27H7OB02ZVPVSz87qzr4r1K9VWNzFjjTPT06Q1tjXUX/N2NRzvDBDV1jedoNB3l0dEtg5wMCR+0d3OvZnFmpwmBsu0X1rEAGFzPz/1SlkPnwcRAR5gUSLUrLxbqfMfGjD4Cwgsk="
+    - secure: "uJXHWgPt0lG542IiDE4lBbkJJ2nk6KMpOtsDw0et1X3u7MEtSVq8ZGeiil+oc2uPT+OqSnjGsiKv1Gap4WVGRbgRemJDerldwHVFOhUmK7Up5SbWtZptIBX6n7Wu9rRNpWD7Xh7DWxByoHYXije1ImiX/RRJUMfwJ9bgtZCmEIY="
 
 before_install:
   - git clone https://github.com/creationix/nvm.git ./.nvm
