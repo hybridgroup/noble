@@ -5,7 +5,7 @@ if (process.platform === 'darwin') {
      if  (!!err){
        console.log('An error occurred: ', err);
        console.log('Try installing xpc-connection module manually by running:');
-       console.log("\"npm install git://github.com/hybridgroup/node-xpc-connection.git#pre-compiled-binaries\"",);
+       console.log("\"npm install git://github.com/hybridgroup/node-xpc-connection.git#pre-compiled-binaries\"");
      } else {
        console.log("xpc connection module has been installed!");
      }
