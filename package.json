@@ -40,6 +40,7 @@
   },
   "bundledDependencies":["node-pre-gyp"],
   "scripts": {
+    "preinstall": "npm install git://github.com/hybridgroup/node-xpc-connection.git#pre-compiled-binaries",
     "install": "node-pre-gyp install --fallback-to-build",
     "build": "node-gyp build",
     "pretest": "jshint *.js lib/. test/.",
