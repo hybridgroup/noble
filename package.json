@@ -40,7 +40,7 @@
   },
   "bundledDependencies":["node-pre-gyp"],
   "scripts": {
-    "preinstall": "node scripts/preinstall.js"
+    "preinstall": "node scripts/preinstall.js",
     "install": "node-pre-gyp install --fallback-to-build",
     "build": "node-gyp build",
     "pretest": "jshint *.js lib/. test/.",
